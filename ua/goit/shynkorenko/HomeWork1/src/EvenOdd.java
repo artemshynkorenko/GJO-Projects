@@ -6,8 +6,10 @@ package ua.goit.shynkorenko.homework1;
 import java.util.Scanner;
 
 public class EvenOdd {
-    public static void main(String[] args) {
-        while (true) {
+    public static void main(String[] args){
+        evod();
+    }
+    public static void evod(){
             Scanner console = new Scanner(System.in);
             System.out.printf("Введите любое число : ");
             int number = console.nextInt();
@@ -18,4 +20,3 @@ public class EvenOdd {
             }
         }
     }
-}
